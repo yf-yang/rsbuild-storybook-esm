@@ -10,7 +10,7 @@
     "build:storybook": "storybook build",
     "dev": "rsbuild dev --open",
     "preview": "rsbuild preview",
-    "storybook": "storybook dev -p 6006"
+    "storybook": "storybook dev"
   },
   "dependencies": {
     "react": "18",
@@ -30,7 +30,13 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "storybook": "^8.1.10",
+    "storybook-builder-rsbuild": "^0.0.5",
     "storybook-react-rsbuild": "*",
     "typescript": "^5.3.2"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "storybook-builder-rsbuild@0.0.5": "patches/storybook-builder-rsbuild@0.0.5.patch"
+    }
   }
 }
