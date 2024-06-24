@@ -17,6 +17,9 @@
     "react-dom": "18"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
     "@chromatic-com/storybook": "^1.4.0",
     "@rsbuild/core": "0.6.15",
     "@rsbuild/plugin-react": "^0.6.2",
@@ -24,8 +27,10 @@
     "@storybook/addon-interactions": "^8.1.10",
     "@storybook/addon-links": "^8.1.10",
     "@storybook/addon-onboarding": "^8.1.10",
+    "@storybook/addon-webpack5-compiler-babel": "^3.0.3",
     "@storybook/blocks": "^8.1.10",
     "@storybook/react": "^8.1.10",
+    "@storybook/react-webpack5": "^8.1.10",
     "@storybook/test": "^8.1.10",
     "@types/react": "^18",
     "@types/react-dom": "^18",
